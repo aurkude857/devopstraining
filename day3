@@ -1,0 +1,82 @@
+   69  yum install git -y
+   70  clear
+   71  ls
+   72  mkdir projetfiles
+   73  ls
+   74  cd projetfiles/
+   75  git config --global user.name "akash"
+   76  git config --global user.email "aurkude857@gmail.com"
+   77  git init
+   78  ls
+   79  git status
+   80  touch file1.txt
+   81  nano file1.txt 
+   82  cat file1.txt 
+   83  touch file2.txt
+   84  nano file2.txt 
+   85  cat file1.txt file2.txt 
+   86  nano file1.txt 
+   87  cat file1.txt file2.txt 
+   88  clear
+   89  cat file1.txt file2.txt 
+   90  git status
+   91  pwd
+   92  git add file1.txt file2.txt
+   93  git status
+   94  git commit -m "added file1.txt file2.txt"
+   95  git status
+   96  nano file1.txt 
+   97  git status
+   98  git add file1.txt
+   99  git commit -m "updated file1.txt"
+  100  git status
+  101  git log
+  102  git show
+  103  nano file2.txt
+  104  git status
+  105  git add file2.txt
+  106  git commit -m "modified file2"
+  107  git status
+  108  git log
+  109  git show
+  110  git show 253855b7efbee65859b96d17f249cde8a029b4c1
+  111  git remote add origin https://github.com/aurkude857/devopstraining.git
+  112  git branch -a
+  113  git branch --all
+  114  git branch akashv1
+  115  git branch --all
+  116  git switch akashv1
+  117  git checkout akashv1
+  118  ls
+  119  touch file3.txt
+  120  nano file3.txt 
+  121  git status
+  122  git add file3.txt
+  123  git commit -m "added file3.txt"
+  124  git status
+  125  git remote -v
+  126  git branch -all
+  127  git branch -a
+  128  git push origin akashv1
+  129  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
+  130  git push origin akashv1
+  131  git checkout master
+  132  git push origin master
+  133  git branch -a
+  134  git branch
+  135  git merge akashv1
+  136  git log
+  137  git log --oeline
+  138  git log --oneline
+  139  git status
+  140  git push origin master
+  141  git tag
+  142  git tag --help
+  143  git tag -a v1.0 -m "my version 1.0"
+  144  git tag
+  145  git show v1.o
+  146  git show v1.0
+  147  git tag
+  148  git push origin v1.0
+  149  history
+
